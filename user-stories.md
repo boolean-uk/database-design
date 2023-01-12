@@ -4,4 +4,4 @@
 - As an admin, I want to be able to choose when and on what screen a movie is shown.
 - As an admin, I want to be able to see a record of each customers ticket purchases.
 - As an admin, I want to add more screens to show movies on to account for future growth.
-  -As a customer, I want to be able a ticket
+  -As a customer, I want to be able purchase a ticket
