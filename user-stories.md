@@ -14,3 +14,5 @@
 
 4. keep a record of their customers and the tickets they purchase - table of tables: customer and tickets
    customer_id x ticket_id
+
+miroboard: "https://miro.com/app/board/uXjVMbVgw0o=/?share_link_id=241314151285"
