@@ -7,16 +7,24 @@ to be accounted for.
 
 
 ✅ As a customer, so I can receive my tickets, I want to provide my contact information.
+
 ✅ As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
+
 ✅ As a customer, so I can decide what time the movie is available, I want to see the times of the movies.
+
 ✅ As a customer, so I can decide where to sit or if theres enough seats available, I want to see a list of seats available.
+
 ✅ As a customer, so I can see how much its going to cost, I want to see the prices of seats/tickets.
+
 ✅ As a customer, so I know what screen the movie is showing in, I want to see the screen number with the movie info.
 
+
 ✅ As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+
 ✅ As an admin, so I can see all records or purchases, I want to see a list of customers and what they purchased.
+
 ✅ As an admin, so I can add new screens in the future, I want to be able to add new screens. 
 
 
 
-![ERD](https://i.imgur.com/Qr3j8Aj.png)
+![ERD](https://i.imgur.com/Qr3j8Aj.png) 
