@@ -6,7 +6,11 @@
 
 ## Epic
 
-A local cinema wants to allow people to book tickets online to see movies that are being shown in its various screens. These tickets should be delivered to customers via email. The cinema wants to keep a record of their customers and the tickets they purchase, as well as offer a regularly updated list of movies for them to choose from. A single screen might show multiple movies a day, and even the same movie at multiple times. The cinema will expand its number of screens in the future, so the potential for growth needs to be accounted for.
+A local cinema wants to allow people to book tickets online to see movies that are being shown in its various screens.
+These tickets should be delivered to customers via email.
+The cinema wants to keep a record of their customers and the tickets they purchase, as well as offer a regularly updated list of movies for them to choose from. 
+A single screen might show multiple movies a day, and even the same movie at multiple times. 
+The cinema will expand its number of screens in the future, so the potential for growth needs to be accounted for.
 
 ## Instructions
 1. Using the epic above, extract as many user stories as you can identify. Some have already been done for you below these instructions.
@@ -44,13 +48,16 @@ A local cinema wants to allow people to book tickets online to see movies that a
 
 Let's consider the first two sentences from the point of view of a customer:
 
-*"A local cinema wants to allow people to book tickets online to see movies that are being shown in its various screens. These tickets should be delivered to customers via email."*
+*"A local cinema wants to allow people to book tickets online to see movies that are being shown in its various screens.
+These tickets should be delivered to customers via email."*
 
-We know that a customer needs to be able to book tickets online, and we know that the delivery method is via email. Using this information, we can put ourselves into the shoes of a customer and construct a short user story:
+We know that a customer needs to be able to book tickets online, and we know that the delivery method is via email. 
+Using this information, we can put ourselves into the shoes of a customer and construct a short user story:
 
 *"As a customer, so I can receive my tickets, I want to provide my contact information."*
 
-This has broken down a big block of text (the business case, or "epic" as it's often called) into a single piece of information that we can use. Now that we have a short, single-purpose user story, we can begin to imagine what entities we might need to represent this in a database.
+This has broken down a big block of text (the business case, or "epic" as it's often called) into a single piece of information that we can use. 
+Now that we have a short, single-purpose user story, we can begin to imagine what entities we might need to represent this in a database.
 
 ## Extracting entities from a user story
 
