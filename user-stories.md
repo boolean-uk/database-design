@@ -1,3 +1,8 @@
+- As a customer, so I can book tickets, I want to provide payment information.
 - As a customer, so I can receive my tickets, I want to provide my contact information.
+- As an admin, so that I can keep track of the movies that are shown, I want to know on what screen the movie being shown. 
+- As an admin, so I can keep a record of customers puchasing tickets, I want to see a list customers.
+- As a customer, so I can see all the tickets that I have purchased, I want to see my purchase history.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
-- As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an admin, so I can ensure that the list of movies is updated, I want to know for how many days has the movie been on the list.
+- As an admin, so I can project the growth of the cinema accordingly, I want to know how many times a movie has been shown on a screen in one day.
