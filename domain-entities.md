@@ -56,15 +56,6 @@ Ticket(
   price
 );
 
-Booking(
-  id,
-  created_at,
-  updated_at,
-  customer_id,
-  payment_information,
-  ticket_id
-);
-
 Showtime(
   id,
   created_at,
