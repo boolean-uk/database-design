@@ -10,4 +10,4 @@
 - As an admin, so i can manage movie screenings, I want a list of movie screening times and the associated screen number
 - As an admin, so i can manage tickets sold, I want a list of all tickets sold with relevant information
 
-![image](https://github.com/rockettdev/database-design/assets/126497362/85e05228-bf18-4b76-9935-7a22f0de4190)
+![image](https://github.com/rockettdev/database-design/assets/126497362/c10b0ba4-db40-4266-82e8-ed04873addcb)
