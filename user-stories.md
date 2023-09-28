@@ -1,3 +1,8 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a customer, I want to by able to book tickets online.
+- As a customer I want my tickets to be delivered by email.
+- As an owner I want to keep a record of my customers and the tickets they buy.
+- As an owner I want to have to potential for growth by expanding the numbers of screens.
+- As an owner I want to offer a regularly updated list of movies.
