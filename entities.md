@@ -22,9 +22,9 @@
 | created_by | FK (employee_id) |
 | created_at | DATETIME, NOT NULL |
 | updated_at | DATETIME |
-| start | DATETIME, MANDATORY |
-| end | DATETIME, MANDATORY |
-| cost | FLOAT, MANDATORY |
+| start_date | DATETIME, MANDATORY |
+| end_date | DATETIME, MANDATORY |
+| price | FLOAT, MANDATORY |
 | details | TEXT, NOT NULL |
 
 ## Screen (aka room)
@@ -36,7 +36,6 @@
 | updated_at | DATETIME |
 | room_number | TEXT, NOT NULL, UNIQUE |
 | has_3d | BOOLEAN, NOT NULL |
-| has_5_1_surround | BOOLEAN, NOT NULL |
 | active | BOOLEAN, NOT NULL |
 
 ## Seating Area
@@ -99,13 +98,11 @@
 | attribute | type |
 |---|---|
 | id | PK |
-| screening_id | FK |
-| ticket_category_id | FK |
-| customer_id | FK |
+| ticket_id | FK, UNIQUE |
+| personell_id | FK |
+| seat_id | FK |
 | created_at | DATETIME, NOT NULL |
 | updated_at | DATETIME |
-| is_valid | BOOLEAN, NOT NULL |
-| digital | BOOLEAN, NOT NULL |
 
 ## employee
 
