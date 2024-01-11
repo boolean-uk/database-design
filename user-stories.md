@@ -31,7 +31,7 @@ A local cinema wants to allow people to book tickets online to see movies that a
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As a customer, so I pick a showing, I want see the dates and times at which each movie is shown.
 
-## customer - going to the cinema
+### customer - going to the cinema
 
 - As a customer, so I can go see a movie I have booked a seat for, I want to receive an email with my ticket.
 - As a customer, so I know my booking has come through properly, I want my ticket to reference the title of the movie I picked.
