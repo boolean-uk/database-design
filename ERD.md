@@ -5,9 +5,9 @@ erDiagram
     CUSTOMER ||--o| ACCOUNT : has
     CUSTOMER ||--o{ ORDER : makes
     ORDER ||--|{ TICKET : has
-    TICKET ||--|| SCREENING : for
-    SCREENING ||--|| SCREEN : at
-    SCREENING ||--|| MOVIE : showing
+    TICKET |{--|| SCREENING : for
+    SCREENING |{--|| SCREEN : at
+    SCREENING |{--|| MOVIE : showing
 
     CUSTOMER {
         serial id PK
