@@ -6,8 +6,8 @@ erDiagram
     CUSTOMER ||--o{ ORDER : makes
     ORDER ||--|{ TICKET : has
     TICKET o{--|| SCREENING : for
-    SCREENING |{--|| SCREEN : at
-    SCREENING |{--|| MOVIE : showing
+    SCREENING o{--|| SCREEN : at
+    SCREENING o{--|| MOVIE : showing
 
     CUSTOMER {
         serial id PK
