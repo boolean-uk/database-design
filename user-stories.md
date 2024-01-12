@@ -26,3 +26,12 @@ A local cinema wants to allow people to book tickets online to see movies that a
 - As an admin, so I would like to understand better movies for sell, I want to have records of all sold tickets
 - As an admin, so I can know behavior of customers for send email for them with new movies, I want to have records of all customers
 - As an admin, so I can know the most popular movie, I want to have the list of movies
+
+## Entities
+
+- customer
+- tickets
+- movie
+- screen
+- admin
+- records
