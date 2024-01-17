@@ -36,4 +36,11 @@ In the provided Entity Relationship Diagram (ERD),
 
 Having both createdAt and updatedAt timestamps will be used in database design as it provides a comprehensive view of the history of changes to each record. The updatedAt attribute is particularly useful for scenarios where you need to know when the most recent modification to a record took place.
 
+# the relationship between the diagram on user-stories are
+A Showtime is associated with a specific Movie through the movie_id foreign key.
+A Ticket is associated with a specific Customer through the customer_id foreign key.
+A Ticket is associated with a specific Showtime through the showtime_id foreign key.
+A BookingRecord is associated with a specific Customer through the customer_id foreign key.
+A BookingRecord is associated with a specific Ticket through the ticket_id foreign key.
+
 Please for more detail see the diagram i will attach using whimsical. I used diffrent colurs in order to indicate the relationships between each entity. Thanks!
