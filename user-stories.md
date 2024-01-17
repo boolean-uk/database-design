@@ -42,5 +42,7 @@ A Ticket is associated with a specific Customer through the customer_id foreign 
 A Ticket is associated with a specific Showtime through the showtime_id foreign key.
 A BookingRecord is associated with a specific Customer through the customer_id foreign key.
 A BookingRecord is associated with a specific Ticket through the ticket_id foreign key.
+A start-time and End time FK have relation with showtime and ticket table.
+on each tables, their attributes, primary keys (PK), foreign keys (FK), and the relationships between them represent relation between them.
 
 Please for more detail see the diagram i will attach using whimsical. I used diffrent colurs in order to indicate the relationships between each entity. Thanks!
