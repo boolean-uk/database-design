@@ -3,7 +3,6 @@
 - As a customer, so I can decide which movie I want to watch, I want to see a list of available movies.
 - As a customer, so I can access my tickets when I need them, I want to be able to see a list of my tickets.
 - As a customer, so I can properly navigate to my seat at the cinema, I want to be able to see the screen, row and seat number for my movie.
-- As a customer, so I can make sure I am on time and have time for the movie, I want my ticket to clearly state the start and end time of a movie.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of available movies.
 - As an admin, so I can keep track of the customers at the cinema, I want to store a record of customers and their tickets.
 - As an admin, so I can offer a variety of movies to the customers, I want each cinema screen to be able to show different movies at different times. 
