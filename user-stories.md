@@ -1,3 +1,11 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an admin, so I can manage the screenings I want to update the list of screenings.
+- As a customer, so I can find out what day a movie is being show I want to see a list of all screenings.
+- As a customer, so I can see what movies are being shown today I want a list of todays screenings.
+- As a customer, so I can go watch a movie I want to place an order for a number of tickets to a screening.
+- As a customer, so I know what seats are available I would like to get a list of available and occupied seats for the selected screening.
+- As a customer, so I can decide where I want to sit while watching the screening I want to be able to choose available seats for the screening.
+- As a customer, so I know where to go at the cinema I would like to know what hall the selected screening is at.
+- As an admin, so I can expand I would like to be able to create new viewing halls.
