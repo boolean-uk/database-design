@@ -74,4 +74,5 @@ A local cinema wants to allow people to book tickets online to see movies that a
   - updatedAt
   - phoneNr
   - name
+  - cinemaId
   
