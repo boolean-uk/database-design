@@ -17,23 +17,39 @@ A local cinema wants to allow people to book tickets online to see movies that a
 
 - screen
   - id
+  - cinemaId
   - createdAt
   - updatedAt
   - 3dSupport
   - seatCapacity
+- cinemaLocations
+  - id
+  - locationName
+  - createdAt
+  - updatedAt
+  - address
+  - phoneNr
+  - screens
+- seatAssignment
+  - screenId
+  - cinemaId
+  - seatNumber
 - screening
-  - id 
+  - id
   - createdAt
   - updatedAt
   - startTime
   - endTime
   - movieId
   - screenId
+  - cinemaId
   - ticketsSold
 - ticket
   - id
   - createdAt
   - updatedAt
+  - ticketPrice
+  - seatNumber
   - screeningId
   - movieId
   - customerId
@@ -45,14 +61,6 @@ A local cinema wants to allow people to book tickets online to see movies that a
   - description
   - ageRating
   - 3d
-- cinemaLocations
-  - id
-  - locationName
-  - createdAt
-  - updatedAt
-  - address
-  - phoneNr
-  - screens
 - customer
   - id
   - createdAt
