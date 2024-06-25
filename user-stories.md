@@ -1,3 +1,11 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
+- As a customer, so I can plan when I want to go to see the film, I want to see all the times any particular film is playing.
+- As a customer, so I can verify my booking, I want to receive a confirmation email after purchasing a ticket.
+- As a customer, so I can manage my bookings, I want to view my booking history.
+- As a customer, so I can change my plans, I want to cancel or reschedule my booking.
+- As a customer, so I can get the best view, I want to be able to choose my seat.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an admin, so I can manage the seating for each film, I want to see a list of people with tickets to each film
+- As an admin, so I can identify which screen each film is on, I want to be able to see the time, screen, and film of each showing
+- As an admin, so I can manage the cleaning of each screen, I want to be able to see the time of each showing by screen
