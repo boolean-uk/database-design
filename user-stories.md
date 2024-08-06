@@ -1,3 +1,9 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a customer, I would want to pay online in order to guarantee my reservation.
+- As a customer, I would like to get a ticket by email so that I can go to a movie.
+- As a admin, I want to change the movie list so I may control the films that are screened at the theatre.
+- As an admin, I need access to a list of tickets that have been reserved so I may oversee client bookings.
+- As an admin, I would like to change the showtimes for every movie so that I can oversee screening schedules.
+- As an admin, I want to stay on top of ticket sales and customer information so that I can guarantee accurate records.
