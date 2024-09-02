@@ -1,3 +1,8 @@
-- As a customer, so I can receive my tickets, I want to provide my contact information.
-- As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
-- As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+"As a customer, so I can receive my tickets, I want to provide my contact information."
+"As a customer, so I can decide which movie I want to watch, I want to see a list of movies."
+"As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies."
+"As a customer, so I can watch I movie, I want to have the option to order tickets"
+"As an admin, so I can move showing, I want to be able to change the time of a showing"
+"As an admin, so I can change number of available seats, I want to be able to change number of seats"
+"As an admin, so I can add new movies, I want to be able to add new movies"
+"As an admin, so I can get customer, I want to be able to create a showing" 
