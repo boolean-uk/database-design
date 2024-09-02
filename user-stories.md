@@ -1,3 +1,14 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an admin, i would like to display a movie at multiple screens.
+- As an admin, i would like to know information related to each screen i have.
+- As an admin, i would like to replay a movie at a different time in the same screen.
+- As an admin, i would like to access a list of purchased tickets
+- As an admin, i would like to access a list of customer history.
+- As a contact,i would like the ability to purchase a ticket for someone else.
+- As a contact,i would like to receive a ticket in my E-mail.
+- As an admin, so i can create relevant statistics, i would like to know how many people attended a specific screening of a movie.
+- As an admin, i would like to know the amount of seats in a screen, so that i do not overcap on purchases.
+- As an admin, i would like to know which customer or contact purchased a specific ticket.
+- As a contact, i would like to know the date from which i purchased a ticket, and how much i payed for it
