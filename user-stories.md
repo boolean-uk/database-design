@@ -1,3 +1,19 @@
+# User Stories
+
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an admin, so I can manage the number of screens the cinema has, I want to be able to add new screens
+- As an admin, so I can keep customers histories, I want to be able to view tickets from a specific customer.
+- As an admin, so I can manage screen schedules, I want to be able to create new showings
+
+# Domain Entities
+
+Customer
+Tickets
+Card Details
+Address Details
+Movies
+Showing
+Screen
+Cinema
