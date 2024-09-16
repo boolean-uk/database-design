@@ -1,3 +1,8 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a manager, so i can calculate total sales, i want to store order history. 
+- As a manager, to keep track of customer, i want to keep a record of customers. 
+- As a manager, to keep track of sales, i want to keep a record of ticket sales.
+- as a manager, to get customers, i want a screening room to be able to show mutliple movies a day. 
+- as a manager, to get customers, i want to screen a movie multiple times a day. 
