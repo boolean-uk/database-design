@@ -1,3 +1,12 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+
+- As an admin, I want to check which screening is attended by which customers
+- As an admin, I want to add / remove screening of a movie.
+- As an admin, I want to add screening rooms
+- As an employee, I need to be able to validate tickets that people bring in
+- as an owner, I want to make sure nobody uses the same ticket twice.
+- as a customer, I need to know which screening still has seats available
+- as a manager, I want to be able to detect fraud if one of my employees decides to give out free tickets to their friends
+- as the manager, I want to be able to analyze the ticket sales for lucrative clusters
