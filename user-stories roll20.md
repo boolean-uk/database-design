@@ -1,0 +1,12 @@
+- As a user, so I can play a game or more, I want to be able to create a room or more.
+- As a user, so I can play with friends, I want to be able to let other user join my game
+- in a game, every user should have a role (player or DM)
+- as a user DM, I want to be able to create character and handout
+- 
+
+- As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As an User, so I can see what movies are available, I want to have a list of movies available
+- As an admin, so I can show multiple movies a day and even the same, I want to have a movie schedule for the day
+- As a customer, so I can know when and where to watch the movie, I want to know the screen number, and showing time.
+- As an admin, I want keep a record of customers.
+- As an admin, I want keep a record of the tickets being purchased.
