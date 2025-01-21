@@ -1,0 +1,77 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam linetype ortho
+
+entity "Movie" as movie {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * title : String
+      genre : String
+      year : int
+      runtime : int
+}
+
+entity "Screen room" as screen {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * name : String
+      capacity : int
+}
+
+entity "Screening" as screening {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * movie : Movie
+    * screen : Screen
+    * startTime : Date
+    price : decimal
+}
+
+entity "Customer" as customer {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * name : String
+}
+
+entity "Contact" as contact {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * customer : Customer
+      email : String
+      phone : String
+}
+
+entity "Ticket" as ticket {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * screening : Screening
+    * customer : Customer
+      seat : String
+}
+
+entity "Admin" as admin {
+    * int : id <<generated>>
+    * createdAt : Date
+    * updatedAt : Date
+    * name : String
+    * email : String
+    * password : String <<hashed>>
+    --
+    manages the movies and screenings,\nis not a customer
+}
+
+
+movie ||--o{ screening
+screen ||--o{ screening
+screening ||--o{ ticket
+customer ||--o{ ticket
+customer ||--|{ contact 
+
+@enduml
