@@ -70,3 +70,15 @@ With this, we can see a third entity has made itself visible: *Contact*. From th
 - *"As a customer, so I can receive my tickets, I want to provide my contact information."*
 - *"As a customer, so I can decide which movie I want to watch, I want to see a list of movies."*
 - *"As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies."*
+- *"As a customer, so I can keep track of my ticket, I want to receive a ticket via email."*
+- *"As an admin, so I can keep track of my customers, I want to get a customer record, and a ticket record."*
+- *"As an admin, so I can update my customers with available movies, I want to keep a list of all available movies to choose from."*
+- *"As a customer, so I can choose my preffered screening room, I want to see which screens that shows my desired movie."*
+- *"As an admin, so I can expand the amount of screens, I want to be able to update the amount of screens available."*
+
+
+
+
+## Entity Diagram
+![Entity Diagram](Images/Cinema-Diagram.drawio.png)
+
