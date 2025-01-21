@@ -1,0 +1,60 @@
+@startuml
+
+entity Customer {
+id INT PK
+{field} first_name VARCHAR(50)
+{field} last_name VARCHAR(50)
+{field}phone_number VARCHAR(24)
+created_at DATETIME
+updated_at DATETIME
+}
+
+entity Movie {
+id INT PK
+{field} name VARCHAR(120)
+{field} description VARCHAR(1400)
+length SMALLINT
+age_rating TINYINT
+created_at DATETIME
+updated_at DATETIME
+}
+
+entity Screen {
+id SMALLINT PK
+created_at DATETIME
+updated_at DATETIME
+}
+
+entity Screening {
+id INT PK
+screen_id SMALLINT FK
+movie_id INT FK
+created_at DATETIME
+updated_at DATETIME
+}
+
+entity Seat {
+id INT PK
+screen_id SMALLINT FK
+created_at DATETIME
+updated_at DATETIME
+}
+
+entity Ticket {
+id INT PK
+price FLOAT
+customer_id INT FK
+screen_id SMALLINT FK
+seat_id INT FK
+created_at DATETIME
+updated_at DATETIME
+}
+
+Customer ||--o{ Ticket
+Ticket }o--|| Screening
+Seat ||--o{ Ticket
+Movie ||--o{ Screening
+Screen ||--o{ Screening
+Seat }|--|| Screen
+
+@enduml
