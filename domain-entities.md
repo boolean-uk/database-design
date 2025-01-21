@@ -1,0 +1,10 @@
+- Customer
+- CustomerGroup
+- DesignatedSeat
+- Ticket
+- Movie 
+- MovieListing
+- MovieListingSchedule
+- Screen
+- Screening
+- TicketHistory

@@ -1,0 +1,87 @@
+Customer
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	string email
+	string firstName
+	string lastName
+
+DesignatedSeat
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	int CustomerGroup FK
+	int ScreenID FK
+
+CustomerGroup
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	int CustomerID FK
+
+Ticket
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	float price
+	int CustomerID FK
+	int ScreeningID FK
+
+
+Movie
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	string title
+	string description
+	string genre
+	int ageRating
+
+
+Screening
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	DateTime startTime
+	float duration
+	int MovieID FK
+	int ScreenID FK
+	int MovieListing FK
+
+MovieListingSchedule
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+
+
+MovieListing
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	DateTime Day
+	int MovieListingScheduleID FK
+
+Screen
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+	string screenName
+
+
+TicketHistory
+	int id PK
+	DateTime createdAt
+	DateTime updatedAt
+
+
+TicketHistory{1}--{0..n}Ticket
+CustomerGroup{1}--has--{1}Ticket
+Ticket{1}--has--{1}Screen
+CustomerGroup{1}--has--{1}Customer
+CustomerGroup{1}--has--{1..n}DesignatedSeat
+Screen{1}--has--{0..n}DesignatedSeat
+Screen{1}--has--{0..n}DesignatedSeat
+Screening{1}--has--{1}Screen
+Screening{1}--has--{1}Movie
+MovieListing{1}--has--{0..n}Screening
+MovieListingSchedule{1}--has--{0..n}MovieListing

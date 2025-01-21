@@ -1,3 +1,17 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a customer, so I know when to be at the cinema for the move I bought, I want the listing of each movie to have a start time and duration.
+- As a customer, So I know which screen to go to, I want the listing of each movie to have a specified screen
+- As a customer, So I always can access my ticket digitally, I want the ticket to be deliverd to me via email.
+- As a Owner, So I can confirm that a ticket is valid, I want to keep a record of all customers and what movie they bought tickets too.
+- As a Owner, So I can sell more tickets, I want each screen to show multiple movies throughout the day.
+- As a customer, So I can pick a time when I'm available, I want to have a handful of available times that the movie will play to pick from 
+- As a Owner, So we can handle potential growth, I want to be able to expand the number of screens in our cinema
+- As a Customer, So I can get a understanding of if I'm interrested in a movie, I want to be able to read a description of the movie
+- As a Customer, So I can get a understanding of if I'm interrested in a movie, I want know what category/genre this movie belongs to 
+- As a Customer, So I know if this movie is suitable for my children, I want know the age raiting
+- As a Owner, So I don't have to plan it the same day that the MovieListing will be valid for, I want to be able to plan a schedule of for the next day/week  movie Listing.
+- As a Customer, So that my children doesn't have to create a email, I want to be able to buy one ticket for my family.
+- As a Owner, So I don't have to plan it the same day that the MovieListing will be valid for, I want to be able to verify that the group
+- As a Owner, so that the customers know which seat they are entitled to, I want the tickets to belong to a seat 
