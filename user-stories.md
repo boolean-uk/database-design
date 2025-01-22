@@ -1,3 +1,5 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a customer, so I can know when to show up, I want to know the time and screen to watch a movie
+- As an admin, so I can expand the number of screens, I want to be able to add screens
