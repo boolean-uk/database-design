@@ -1,3 +1,13 @@
 - As a customer, so I can receive my tickets, I want to provide my contact information.
 - As a customer, so I can decide which movie I want to watch, I want to see a list of movies.
 - As an admin, so I can manage the movies shown at the cinema, I want to update the list of movies.
+- As a customer, I want to recive my tickets via Email.
+- As a customer, I want to book my ticket online.
+- As a customer, I want to know when the movie starts
+- As a customer, I want to know which screen a movie is shown on.
+- As a customer, I want to buy multiple tickets to one movie screening.
+- As an admin, I want to keep a record of my customers.
+- As an admin, I want to see tickets a customer has bought.
+- As an admin, I want to send a list of updated movies to each customer.
+- As an admin I want a screen to show multiple movies per day.
+- As an admin, I want to scale up my database for future expansions to the cinima.
