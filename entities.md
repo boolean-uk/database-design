@@ -1,0 +1,6 @@
+- Movie
+- Screening
+- Screen
+- Customer
+- Ticket
+- Cinema
